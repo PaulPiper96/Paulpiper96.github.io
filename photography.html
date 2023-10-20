@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Thu Sep 07 2023 11:55:05 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Oct 20 2023 07:40:24 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6478ebf85eb71eb9d3dc833a" data-wf-site="636157e2da537bdd4a9b73a4">
 <head>
   <meta charset="utf-8">
@@ -116,8 +116,8 @@
         let menucon = document.getElementById("menubackground");
         if(!menucon.classList.contains("display-none"))
         {
-        menubackground.classList.remove();
-        menubackground.classList.add("display-none"); //hide the menu
+        console.log( menucon.classList);
+      menucon.classList.add("display-none"); //hide the menu
         document.body.style.overflow="scroll"; //enable scrolling egain
         }
         });
@@ -194,17 +194,26 @@ document.querySelector(".image-gallery-active").classList.remove("image-gallery-
               <a href="index.html" class="subjectmatter-menu">Home</a>
             </li>
             <li class="linklist-left">
+              <a href="designs.html" class="subjectmatter-menu">Design</a>
+            </li>
+            <li class="linklist-left">
+              <a href="videography.html" class="subjectmatter-menu">Videography</a>
+            </li>
+          </ol>
+        </div>
+        <div class="rightsidemenu">
+          <ol role="list" class="list w-list-unstyled">
+            <li class="linklist-left">
               <a href="sorting-algorithms.html" class="subjectmatter-menu">Development</a>
             </li>
             <li class="linklist-left">
-              <a href="designs.html" class="subjectmatter-menu">Design</a>
+              <a href="impressum.html" class="subjectmatter-menu">Impressum</a>
             </li>
             <li class="linklist-left">
               <a href="about.html" class="subjectmatter-menu">About</a>
             </li>
           </ol>
         </div>
-        <div class="rightsidemenu"></div>
       </div>
     </div>
     <div class="navbar-container">
@@ -218,6 +227,132 @@ document.querySelector(".image-gallery-active").classList.remove("image-gallery-
               <div class="white-menu-line grey-background"></div>
               <div class="white-menu-line grey-background"></div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div id="menubackground" class="menubackground bluebackground display-none">
+        <div class="navbar-container">
+          <div class="center-for-big-scale navbar-center">
+            <div class="navbar-content">
+              <div class="navbar-link-wrap">
+                <div class="logo-container"><img src="images/Element-1.svg" loading="lazy" alt="" class="logo"></div>
+              </div>
+              <div class="navbar-icon-wrap">
+                <div id="close-icon" class="menu-icon-wrap"><img src="images/Element-3.svg" loading="lazy" alt="" class="close-icon"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menupartcontainer">
+          <div class="leftsidemenu">
+            <ol role="list" class="list w-list-unstyled">
+              <li class="linklist-left">
+                <a href="designs.html" class="subjectmatter-menu">Design</a>
+              </li>
+              <li class="linklist-left">
+                <a href="photography.html" aria-current="page" class="subjectmatter-menu w--current">Photography</a>
+              </li>
+              <li class="linklist-left">
+                <a href="videography.html" class="subjectmatter-menu">Videography</a>
+              </li>
+            </ol>
+          </div>
+          <div class="rightsidemenu">
+            <ol role="list" class="list w-list-unstyled">
+              <li class="linklist-left">
+                <a href="sorting-algorithms.html" class="subjectmatter-menu">Development</a>
+              </li>
+              <li class="linklist-left">
+                <a href="impressum.html" class="subjectmatter-menu">Impressum</a>
+              </li>
+              <li class="linklist-left">
+                <a href="about.html" class="subjectmatter-menu">About</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div id="menubackground" class="menubackground bluebackground display-none">
+        <div class="navbar-container">
+          <div class="center-for-big-scale navbar-center">
+            <div class="navbar-content">
+              <div class="navbar-link-wrap">
+                <div class="logo-container"><img src="images/Element-1.svg" loading="lazy" alt="" class="logo"></div>
+              </div>
+              <div class="navbar-icon-wrap">
+                <div id="close-icon" class="menu-icon-wrap"><img src="images/Element-3.svg" loading="lazy" alt="" class="close-icon"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menupartcontainer">
+          <div class="leftsidemenu">
+            <ol role="list" class="list w-list-unstyled">
+              <li class="linklist-left">
+                <a href="designs.html" class="subjectmatter-menu">Design</a>
+              </li>
+              <li class="linklist-left">
+                <a href="photography.html" aria-current="page" class="subjectmatter-menu w--current">Photography</a>
+              </li>
+              <li class="linklist-left">
+                <a href="videography.html" class="subjectmatter-menu">Videography</a>
+              </li>
+            </ol>
+          </div>
+          <div class="rightsidemenu">
+            <ol role="list" class="list w-list-unstyled">
+              <li class="linklist-left">
+                <a href="sorting-algorithms.html" class="subjectmatter-menu">Development</a>
+              </li>
+              <li class="linklist-left">
+                <a href="impressum.html" class="subjectmatter-menu">Impressum</a>
+              </li>
+              <li class="linklist-left">
+                <a href="about.html" class="subjectmatter-menu">About</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div id="menubackground" class="menubackground bluebackground display-none">
+        <div class="navbar-container">
+          <div class="center-for-big-scale navbar-center">
+            <div class="navbar-content">
+              <div class="navbar-link-wrap">
+                <div class="logo-container"><img src="images/Element-1.svg" loading="lazy" alt="" class="logo"></div>
+              </div>
+              <div class="navbar-icon-wrap">
+                <div id="close-icon" class="menu-icon-wrap"><img src="images/Element-3.svg" loading="lazy" alt="" class="close-icon"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menupartcontainer">
+          <div class="leftsidemenu">
+            <ol role="list" class="list w-list-unstyled">
+              <li class="linklist-left">
+                <a href="designs.html" class="subjectmatter-menu">Design</a>
+              </li>
+              <li class="linklist-left">
+                <a href="photography.html" aria-current="page" class="subjectmatter-menu w--current">Photography</a>
+              </li>
+              <li class="linklist-left">
+                <a href="videography.html" class="subjectmatter-menu">Videography</a>
+              </li>
+            </ol>
+          </div>
+          <div class="rightsidemenu">
+            <ol role="list" class="list w-list-unstyled">
+              <li class="linklist-left">
+                <a href="sorting-algorithms.html" class="subjectmatter-menu">Development</a>
+              </li>
+              <li class="linklist-left">
+                <a href="impressum.html" class="subjectmatter-menu">Impressum</a>
+              </li>
+              <li class="linklist-left">
+                <a href="about.html" class="subjectmatter-menu">About</a>
+              </li>
+            </ol>
           </div>
         </div>
       </div>

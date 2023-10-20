@@ -14,6 +14,14 @@
   padding-bottom: 56.25%;
 }
 
+body {
+  color: #333;
+  background-color: #0e0d0d;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .scroll-snap-wrapper {
   width: 100vw;
   height: 100vh;
@@ -124,7 +132,7 @@
   align-items: center;
   margin-left: 0;
   padding-right: 1em;
-  display: none;
+  display: flex;
   position: relative;
 }
 
@@ -149,6 +157,7 @@
   cursor: pointer;
   mix-blend-mode: screen;
   transition: opacity .2s;
+  display: none;
 }
 
 .menu-icon-wrap {
@@ -284,6 +293,10 @@
   color: #ededed;
 }
 
+.bignotsoimportantheader.hero-header.angaben {
+  font-size: 3.5em;
+}
+
 .introue {
   width: 100%;
   min-width: 200px;
@@ -345,6 +358,10 @@
   padding-bottom: 3em;
 }
 
+.introue.grey-font.impressumtext {
+  justify-content: flex-start;
+}
+
 .contain-reel {
   width: 100%;
   height: 100%;
@@ -374,6 +391,10 @@
 
 .wrap-header.aboutmeheadfont {
   margin-bottom: 1em;
+}
+
+.wrap-header.aboutmeheadfont.impressumheader {
+  flex-direction: column;
 }
 
 .menubackground {
@@ -1131,7 +1152,7 @@
 }
 
 .vertical-image.designactualimage._3d1 {
-  background-image: url('../images/WhatsApp-Image-2022-12-13-at-18.34.36.jpeg');
+  background-image: url('../images/ParticleFix0008-2.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1145,14 +1166,14 @@
 }
 
 .vertical-image.designactualimage._3d3 {
-  background-image: url('../images/allaspects3.jpg');
+  background-image: url('../images/GeonodesSciFi-3.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vertical-image.designactualimage._3d4 {
-  background-image: url('../images/WhatsApp-Image-2023-03-02-at-12.47.09.jpeg');
+  background-image: url('../images/fin.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1685,6 +1706,15 @@
   background-color: #0e0d0d;
 }
 
+.exrechtlink {
+  color: #3a3a41;
+  cursor: pointer;
+  font-family: degular-display, sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .generic-section {
     min-height: 700px;
@@ -1953,7 +1983,7 @@
     min-height: auto;
   }
 
-  .categories-wrap.rightsidewrap {
+  .menubackground.bluebackground.display-none, .categories-wrap.rightsidewrap {
     display: none;
   }
 
@@ -2027,6 +2057,15 @@
 
   .uebubblesortexplainer.grey-font, .buildingblocksue.grey-font, .uemodelling {
     width: 100%;
+  }
+
+  .menupartcontainer {
+    flex-direction: row;
+  }
+
+  .leftsidemenu, .rightsidemenu {
+    width: 100%;
+    height: 45svh;
   }
 
   .measpersonimage.imagetohidemobile {
