@@ -807,7 +807,7 @@ body {
 }
 
 .image-container.image12 {
-  background-image: url('../images/_DSC5491.jpg');
+  background-image: url('../images/DSC07524.jpg');
   background-position: 50% 90%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -924,7 +924,7 @@ body {
 }
 
 .vertical-image.iamge3 {
-  background-image: url('../images/A7C05412.jpg');
+  background-image: url('../images/A7C08284.jpg');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1093,6 +1093,13 @@ body {
 
 .vertical-image.image37 {
   background-image: url('../images/A7C05277.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vertical-image.image38 {
+  background-image: url('../images/A7C05412.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;

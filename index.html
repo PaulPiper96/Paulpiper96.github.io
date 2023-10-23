@@ -1,4 +1,5 @@
-<!doctype html><html data-wf-page="6478ebf85eb71eb9d3dc8337" data-wf-site="636157e2da537bdd4a9b73a4"><head><meta charset="utf-8"><title>Copy of Paul&#x27;s SCROLL_TEST</title><meta content="width=device-width,initial-scale=1" name="viewport"><meta content="Webflow" name="generator"><link href="css/normalize.css" rel="stylesheet"><link href="css/webflow.css" rel="stylesheet"><link href="css/pauls-scroll-test-1d71cd8dcc12baa1beb4b.webflow.css" rel="stylesheet"><script src="https://use.typekit.net/ihg0cqf.js"></script><script>try{Typekit.load();}catch(e){}</script><script>!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon"><link href="images/webclip.png" rel="apple-touch-icon"><script defer="defer" src="bundle.js"></script></head><body class="body background-color"><div class="scroll-snap-wrapper"><div id="Photocat" class="html-embed w-embed w-script"><style>body::-webkit-scrollbar {
+<!doctype html><html data-wf-page="6478ebf85eb71eb9d3dc8337" data-wf-site="636157e2da537bdd4a9b73a4"><head><meta charset="utf-8"><title>Copy of Paul&#x27;s SCROLL_TEST</title><meta content="width=device-width,initial-scale=1" name="viewport"><meta content="Webflow" name="generator"><link href="css/normalize.css" rel="stylesheet"><link href="css/webflow.css" rel="stylesheet"><link href="css/pauls-scroll-test-1d71cd8dcc12baa1beb4b.webflow.css" rel="stylesheet"><script src="https://use.typekit.net/ihg0cqf.js"></script><script>try{Typekit.load();}catch(e){}</script><script>!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>  <link href="icon-512x512.png" rel="shortcut icon" type="image/x-icon">
+  <link href="icon-512x512.png" rel="apple-touch-icon"><script defer="defer" src="bundle.js"></script></head><body class="body background-color"><div class="scroll-snap-wrapper"><div id="Photocat" class="html-embed w-embed w-script"><style>body::-webkit-scrollbar {
           display: none;
         }
         .max-height-container
@@ -65,6 +66,11 @@
         }
         /*Once the Actual Dom Content is loaded we can start to Manipulate it. All the Site's Logic lies in between this "hook". That way we can also access classes, wich we defined in Weblows Designer.*/
         document.addEventListener("DOMContentLoaded", () => {
+
+          const linkbutoon=document.getElementsByClassName("logo-container")
+Array.from(document.getElementsByClassName("logo-container")).forEach(e =>
+  e.addEventListener("click", () => window.location="index.html"),
+)
         /*----------------------------------------
         OPEN MENU
         ------------------------*/
