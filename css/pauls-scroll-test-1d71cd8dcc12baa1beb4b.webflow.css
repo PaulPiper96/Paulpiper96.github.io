@@ -1115,7 +1115,7 @@ body {
 }
 
 .vertical-image.designactualimage.logo1 {
-  background-image: url('../images/Zeichenfläche-1-Kopie.png');
+  background-image: url('../images/Zeichenfl„che-1-Kopie.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1126,35 +1126,35 @@ body {
 }
 
 .vertical-image.designactualimage.logo2 {
-  background-image: url('../images/Zeichenfläche-5.png');
+  background-image: url('../images/Zeichenfl„che-5.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vertical-image.designactualimage.logo3 {
-  background-image: url('../images/Zeichenfläche-1-Kopie-3.png');
+  background-image: url('../images/Zeichenfl„che-1-Kopie-3.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vertical-image.designactualimage.logo4 {
-  background-image: url('../images/Zeichenfläche-4.png');
+  background-image: url('../images/Zeichenfl„che-4.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vertical-image.designactualimage.logo5 {
-  background-image: url('../images/Zeichenfläche-1-Kopie-2.png');
+  background-image: url('../images/Zeichenfl„che-1-Kopie-2.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vertical-image.designactualimage.logo6 {
-  background-image: url('../images/Zeichenfläche-2.png');
+  background-image: url('../images/Zeichenfl„che-2.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1168,7 +1168,7 @@ body {
 }
 
 .vertical-image.designactualimage._3d2 {
-  background-image: url('../images/Painterly-Look-without.jpg');
+  background-image: url('../images/3DAlienModel.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1213,12 +1213,14 @@ body {
 .vertical-image.designactualimage.interface-big-image.biginterfaceimage2 {
   background-image: url('../images/Export.jpg');
   background-position: 50%;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vertical-image.designactualimage.interface-image1 {
   background-image: url('../images/Web-1920-–-4.jpg');
   background-position: 50%;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
